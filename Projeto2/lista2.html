@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag1</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="">
+     <fieldset>
+      <legend>Dados pessoais:</legend>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br><br>
+      <label for="nasci">Data de nascimento:</label>
+      <input type="text" id="nasci" name="nasci"><br><br>
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco"><br><br>
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro" name="bairro"><br><br>
+      <label for="cidade">Cidade:</label>
+      <input type="text" name="cidade" id="cidade">
+      <label for="estado">Estado:</label>
+      <select name="estado" id="estado">
+        <option value="Ceara">Ceara</option>
+        <option value="Mato grosso">Mato Grosso</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Sao paulo">Sao paulo</option>
+      </select>
+      <label for="cep">CEP::</label>
+      <input type="text" id="cep" name="cep"><br><br>
+     </fieldset>
+    
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <p>Natureza do Cargo</p>
+        <input type="radio">
+        <label for="gerencia">Gerencia</label>
+        <input type="radio" name="gerencia" id="gerencia">
+        <label for="financeiro">Financeiro</label>
+        <input type="radio" name="financeiro" id="financeiro">
+        <label for="recepção">Recepção</label>
+        <input type="radio" name="recepção" id="recepção">
+        <label for="admin">Administração</label>
+        <input type="radio" name="admin" id="admin">
+        <label for="juridico">Juridico</label>
+
+        <p>Areas de interesse</p>
+        <input type="checkbox">
+        <label for="computacao">Computação</label>
+        <input type="checkbox" name="computacao" id="computacao">
+        <label for="quimica">Quimica</label>
+        <input type="checkbox" name="quimica" id="quimica">
+        <label for="ma">Meio Ambiente</label>
+        <input type="checkbox" name="ma" id="ma">
+        <label for="eng">Engenharia</label>
+        <input type="checkbox" name="eng" id="eng">
+        <label for="mat">Matematica</label>
+
+        <p>Mini curriculo</p>
+        <label for="area"></label>
+        <textarea name="area" id="area" rows="8" cols="50"></textarea>
+    </fieldset>
+        
+    </form>
+</body>
+</html>
